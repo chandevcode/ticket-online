@@ -1,0 +1,77 @@
+<div class="navbar bg-base-100 fixed top-0 left-0 w-full shadow-md z-50">
+  <div class="navbar-start">
+    <button
+      onclick="mobile_nav_modal.showModal()"
+      class="btn btn-ghost lg:hidden"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-5 w-5"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h8m-8 6h16"></path>
+      </svg>
+    </button>
+
+    <a href="/" class="flex items-center justify-center space-x-2">
+      <img
+        src="/logo.png"
+        alt="Seseh Rental logo"
+        class="w-12 h-12 sm:w-10 sm:h-10"
+      />
+      <p class="text-xl font-semibold hidden sm:block">Seseh Rental</p>
+    </a>
+  </div>
+
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a href="#scooters">Scooters</a></li>
+      <li><a href="#booking-form">Book Now</a></li>
+    </ul>
+  </div>
+
+  <div class="navbar-end">
+    <a
+        class="btn btn-neutral btn-outline"
+        href="https://wa.me/6285133654010"
+        target="_blank">Contact</a
+      >
+  </div>
+</div>
+
+<!-- Mobile Navigation Modal -->
+<dialog id="mobile_nav_modal" class="modal backdrop-blur-sm">
+  <div class="modal-box max-w-xs mx-auto p-0">
+    <div class="p-6 text-center">
+      <ul class="menu menu-lg gap-2">
+        <li>
+          <a href="#scooters" onclick="mobile_nav_modal.close()" class="text-lg">Scooters</a>
+        </li>
+        <li>
+          <a
+            href="#booking-form"
+                  onclick="mobile_nav_modal.close()"
+                  class="text-lg">Book Now</a
+                >
+        </li>
+        <li>
+          <a
+            href="#tnc"
+                  onclick="mobile_nav_modal.close()"
+                  class="text-lg">Terms & Conditions</a
+                >
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  <form method="dialog" class="modal-backdrop bg-black/30 backdrop-blur-sm">
+    <button>close</button>
+  </form>
+</dialog>
