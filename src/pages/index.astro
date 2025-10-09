@@ -5,176 +5,197 @@ import Layout from "../layouts/Layout.astro";
 <Layout>
   <!-- Navigation -->
   <nav
-    class="navbar absolute top-0 left-0 right-0 z-50 bg-transparent text-white px-8"
-  >
-    <div class="navbar-start">
-      <div class="flex items-center gap-2">
-        <img
-          src="/logo-boat.png"
-          alt="GoNusa Logo"
-          class="w-10 h-10 rounded-full"
-        />
+      class="navbar absolute top-0 left-0 right-0 z-50 bg-transparent text-white px-8"
+      >
+      <div class="navbar-start">
+        <div class="flex items-center gap-2">
+          <img
+              src="/logo-boat.png"
+              alt="GoNusa Logo"
+              class="w-10 h-10 rounded-full"
+              />
 
-        <div>
-          <div class="font-bold text-lg">GoNusa</div>
+              <div>
+                <div class="font-bold text-lg">GoNusa</div>
+              </div>
         </div>
       </div>
-    </div>
-    <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal px-1 gap-4">
-        <li><a class="text-white hover:text-lime-400">Home</a></li>
-        <li><a class="text-white hover:text-lime-400">About Us</a></li>
-        <li><a class="text-white hover:text-lime-400">Destinations</a></li>
-        <li>
-          <a class="text-white hover:text-lime-400">Tours & Activities</a>
-        </li>
-      </ul>
-    </div>
-    <div class="navbar-end">
-      <button
-        class="btn btn-sm bg-lime-400 text-gray-900 border-0 hover:bg-lime-500"
-        >Contact Us</button
-      >
-    </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 gap-4">
+          <li><a class="text-white hover:text-lime-400">Home</a></li>
+          <li><a class="text-white hover:text-lime-400">About Us</a></li>
+          <li><a class="text-white hover:text-lime-400">Destinations</a></li>
+          <li>
+            <a class="text-white hover:text-lime-400">Tours & Activities</a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <button
+            class="btn btn-sm bg-lime-400 text-gray-900 border-0 hover:bg-lime-500"
+            >Contact Us</button
+          >
+      </div>
   </nav>
 
   <!-- Hero Section -->
   <div
-    class="hero min-h-screen"
-    style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.pexels.com/photos/3071018/pexels-photo-3071018.jpeg'); background-size: cover; background-position: center;"
-  >
-    <div class="hero-content text-center text-white">
-      <div class="max-w-4xl">
-        <div class="flex justify-center gap-8 mb-8 text-sm">
-          <span>Fast</span>
-          <span>•</span>
-          <span>Safe</span>
-          <span>•</span>
-          <span>Seamless</span>
+      class="hero min-h-screen"
+      style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.pexels.com/photos/3071018/pexels-photo-3071018.jpeg'); background-size: cover; background-position: center;"
+      >
+      <div class="hero-content text-center text-white">
+        <div class="max-w-4xl">
+          <div class="flex justify-center gap-8 mb-8 text-sm">
+            <span>Fast</span>
+            <span>•</span>
+            <span>Safe</span>
+            <span>•</span>
+            <span>Seamless</span>
+          </div>
+          <h1 class="text-3xl md:text-5xl font-bold mb-8">
+            Fast Boat from Bali to Nusa Penida, Lembongan & Gili Islands <span
+                                                                             class="text-lime-400">Smooth Rides to Dream Destinations</span
+                                                                           >
+          </h1>
+          <button class="btn btn-wide bg-white text-gray-900 hover:bg-gray-100"
+                  >Explore Now</button
+                >
         </div>
-        <h1 class="text-3xl md:text-5xl font-bold mb-8">
-          Fast Boat from Bali to Nusa Penida, Lembongan & Gili Islands <span
-            class="text-lime-400">Smooth Rides to Dream Destinations</span
-          >
-        </h1>
-        <button class="btn btn-wide bg-white text-gray-900 hover:bg-gray-100"
-          >Explore Now</button
-        >
       </div>
-    </div>
   </div>
 
   <!-- Ferry Brands -->
-  <div class="py-8 bg-white">
+  <div class="py-4 bg-white">
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap justify-center items-center gap-8 opacity-60">
-        <div class="text-2xl font-bold">FERRY 1</div>
-        <div class="text-2xl font-bold">ROCKY</div>
-        <div class="text-2xl font-bold">FERRY 2</div>
-        <div class="text-2xl font-bold">FERRY 3</div>
-        <div class="text-2xl font-bold">ROCKY</div>
+        <div class="text-2xl font-bold italic">Tanis</div>
+        <div class="text-2xl font-bold italic">Setia</div>
+        <div class="text-2xl font-bold italic">Angel</div>
+        <div class="text-2xl font-bold italic">Rocky</div>
+        <div class="text-2xl font-bold italic">Maruti Express</div>
       </div>
     </div>
   </div>
 
   <!-- About Section -->
-  <div class="py-20 bg-gradient-to-b from-white to-cyan-50">
+  <div class="py-10 bg-gradient-to-b from-white to-cyan-50">
     <div class="container mx-auto px-4 text-center">
-      <div class="text-sm text-cyan-600 mb-4">GoNusa</div>
+      <div class="text-sm text-lime-600 mb-4">GoNusa</div>
       <h2 class="text-4xl md:text-5xl font-bold mb-4">
-        Discover Your <span class="text-cyan-600 italic">Dream Destination</span
+        Discover Your <span class="text-lime-600 italic">Dream Destination</span
         >
       </h2>
       <h3 class="text-lg md:text-xl mb-12 leading-relaxed">
         Explore Bali, Nusa Penida, Lembongan, and beyond with <strong
-          >GoNusa</strong
-        > — your trusted fast boat ticket partner in Bali. Experience smooth, safe,
-        and affordable island transfers while discovering the beauty of Indonesia’s
-        most stunning tropical escapes. Compare routes, book your tickets instantly,
-        and enjoy the best ferry deals from Bali to Nusa Penida and nearby islands.
+                                                                  >GoNusa</strong
+                                                                > — your trusted fast boat ticket partner in Bali. Experience smooth, safe,
+                                                                and affordable island transfers while discovering the beauty of Indonesia’s
+                                                                most stunning tropical escapes. Compare routes, book your tickets instantly,
+                                                                and enjoy the best ferry deals from Bali to Nusa Penida and nearby islands.
       </h3>
 
-      <!-- Features -->
-      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-16">
-        <div class="card bg-cyan-50 shadow-sm">
-          <div class="card-body items-center">
-            <div
-              class="w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center mb-4"
-            >
-              <svg
-                class="w-8 h-8 text-cyan-700"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
+          <!-- Features -->
+          <section
+              class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-16 px-4"
+              aria-label="Fast Boat Service Benefits"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 4v16m8-8H4"></path>
-              </svg>
+              <!-- Comfortable Travel -->
+            <div class="card bg-lime-50 shadow-sm hover:shadow-md transition-shadow">
+              <div class="card-body items-center text-center p-6">
+                <div
+                    class="w-16 h-16 bg-lime-100 rounded-full flex items-center justify-center mb-4"
+                    >
+                    <!-- Icon: Ship -->
+                  <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-8 h-8 text-lime-700"
+                             fill="none"
+                             viewBox="0 0 24 24"
+                             stroke="currentColor"
+                             stroke-width="2"
+                                           >
+                                           <path
+                                           stroke-linecap="round"
+                                                           stroke-linejoin="round"
+                                                           d="M3 19h18M5 15h14l-1-5H6l-1 5zm2-8h10V5H7v2z"
+                                                           />
+                  </svg>
+                </div>
+                <h3 class="card-title text-lg font-semibold text-lime-800">
+                  Comfortable Travel
+                </h3>
+                <p class="text-sm text-gray-700">
+                Enjoy a smooth and relaxing journey across the Bali Sea with
+                air-conditioned cabins, comfortable seating, and scenic views.
+                </p>
+              </div>
             </div>
-            <h3 class="card-title text-lg">Comfortable Travel</h3>
-            <p class="text-sm text-gray-600">
-              We guarantee passenger comfort with complete facilities, so you
-              can relax and enjoy the journey during the trip.
-            </p>
-          </div>
-        </div>
 
-        <div class="card bg-cyan-50 shadow-sm">
-          <div class="card-body items-center">
-            <div
-              class="w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center mb-4"
-            >
-              <svg
-                class="w-8 h-8 text-cyan-700"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                ></path>
-              </svg>
+            <!-- Safety Standards -->
+            <div class="card bg-lime-50 shadow-sm hover:shadow-md transition-shadow">
+              <div class="card-body items-center text-center p-6">
+                <div
+                    class="w-16 h-16 bg-lime-100 rounded-full flex items-center justify-center mb-4"
+                    >
+                    <!-- Icon: Shield Check -->
+                  <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-8 h-8 text-lime-700"
+                             fill="none"
+                             viewBox="0 0 24 24"
+                             stroke="currentColor"
+                             stroke-width="2"
+                                           >
+                                           <path
+                                           stroke-linecap="round"
+                                                           stroke-linejoin="round"
+                                                           d="M9 12l2 2 4-4m5 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                                                           />
+                  </svg>
+                </div>
+                <h3 class="card-title text-lg font-semibold text-lime-800">
+                  High Safety Standards
+                </h3>
+                <p class="text-sm text-gray-700">
+                Travel with peace of mind — all boats are professionally maintained and
+                equipped with certified safety gear.
+                </p>
+              </div>
             </div>
-            <h3 class="card-title text-lg">Safety Standards</h3>
-            <p class="text-sm text-gray-600">
-              Safety is a top priority, with well-maintained vessels and
-              complete safety equipment.
-            </p>
-          </div>
-        </div>
 
-        <div class="card bg-cyan-50 shadow-sm">
-          <div class="card-body items-center">
-            <div
-              class="w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center mb-4"
-            >
-              <svg
-                class="w-8 h-8 text-cyan-700"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-              </svg>
+            <!-- Easy Booking -->
+            <div class="card bg-lime-50 shadow-sm hover:shadow-md transition-shadow">
+              <div class="card-body items-center text-center p-6">
+                <div
+                    class="w-16 h-16 bg-lime-100 rounded-full flex items-center justify-center mb-4"
+                    >
+                    <!-- Icon: Credit Card -->
+                  <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-8 h-8 text-lime-700"
+                             fill="none"
+                             viewBox="0 0 24 24"
+                             stroke="currentColor"
+                             stroke-width="2"
+                                           >
+                                           <path
+                                           stroke-linecap="round"
+                                                           stroke-linejoin="round"
+                                                           d="M3 7h18M3 11h18M3 15h10m0 0v4m0-4h8a2 2 0 002-2V7a2 2 0 00-2-2H3a2 2 0 00-2 2v6a2 2 0 002 2h10z"
+                                                           />
+                  </svg>
+                </div>
+                <h3 class="card-title text-lg font-semibold text-lime-800">
+                  Easy & Secure Booking
+                </h3>
+                <p class="text-sm text-gray-700">
+                Book your fast boat tickets online in minutes — choose route, date, and
+                pay securely with PayPal or card, or pay directly at our Sanur office.
+                </p>
+              </div>
             </div>
-            <h3 class="card-title text-lg">Easy and Quick Booking Process</h3>
-            <p class="text-sm text-gray-600">
-              Book tickets quickly and easily by easily checking availability,
-              comparing prices and securing tickets online.
-            </p>
-          </div>
-        </div>
-      </div>
+          </section>
+
     </div>
   </div>
 
@@ -185,22 +206,22 @@ import Layout from "../layouts/Layout.astro";
         <!-- Nusa Lembongan -->
         <div class="card bg-base-100 shadow-xl">
           <figure class="relative">
-            <div
-              class="w-full h-64 bg-gradient-to-br from-cyan-400 to-blue-500"
-            >
+            <div class="w-full h-64 bg-gradient-to-br from-cyan-400 to-blue-500">
+              <img
+                  src="https://images.unsplash.com/photo-1541739141507-288f99ad936c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Fast Boat to Nusa Lembongan from Sanur Port"
+                  class="w-full h-64 object-cover"
+                  />
             </div>
-            <div class="badge badge-primary absolute top-4 left-4">⭐</div>
           </figure>
           <div class="card-body">
             <div class="flex justify-between items-center">
               <h3 class="card-title">Nusa Lembongan</h3>
-              <button class="btn btn-sm btn-outline rounded-full"
-                >See detail →</button
-              >
+              <button class="btn btn-sm btn-outline rounded-full">See detail →</button>
             </div>
             <p class="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur elit, at adipiscing, sed
-              do aliqua ut enim.
+            Relax on white sandy beaches and crystal-clear waters. Fast boat trips from
+            Sanur to Nusa Lembongan depart daily — just 30 minutes to paradise.
             </p>
           </div>
         </div>
@@ -208,358 +229,339 @@ import Layout from "../layouts/Layout.astro";
         <!-- Nusa Penida -->
         <div class="card bg-base-100 shadow-xl">
           <figure class="relative">
-            <div
-              class="w-full h-64 bg-gradient-to-br from-blue-400 to-cyan-500"
-            >
+            <div class="w-full h-64 bg-gradient-to-br from-blue-400 to-cyan-500">
+              <img
+                  src="https://images.unsplash.com/photo-1532253240322-146d5987f692?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Fast Boat from Sanur to Nusa Penida Bali"
+                  class="w-full h-64 object-cover"
+                  />
             </div>
-            <div class="badge badge-primary absolute top-4 left-4">⭐</div>
           </figure>
           <div class="card-body">
             <div class="flex justify-between items-center">
               <h3 class="card-title">Nusa Penida</h3>
-              <button class="btn btn-sm btn-outline rounded-full"
-                >See detail →</button
-              >
+              <button class="btn btn-sm btn-outline rounded-full">See detail →</button>
             </div>
             <p class="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur elit, at adipiscing, sed
-              do aliqua ut enim.
+            Explore Kelingking Beach, Crystal Bay, and Broken Beach. Book your fast
+            boat ticket from Sanur to Nusa Penida for a safe and scenic ride across the
+            Bali Sea.
             </p>
           </div>
         </div>
 
-        <!-- Gili 3 Island -->
+        <!-- Gili Islands -->
         <div class="card bg-base-100 shadow-xl">
           <figure class="relative">
-            <div
-              class="w-full h-64 bg-gradient-to-br from-teal-400 to-cyan-500"
-            >
+            <div class="w-full h-64 bg-gradient-to-br from-cyan-400 to-blue-500">
+              <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/dc/f6/04/stunning-clear-water.jpg?w=900&h=500&s=1"
+                  alt="Fast Boat from Bali to Gili Islands"
+                  class="w-full h-64 object-cover"
+                  />
             </div>
-            <div class="badge badge-primary absolute top-4 left-4">⭐</div>
           </figure>
           <div class="card-body">
             <div class="flex justify-between items-center">
-              <h3 class="card-title">Gili 3 Island</h3>
-              <button
-                class="btn btn-sm bg-cyan-400 text-white border-0 rounded-full hover:bg-cyan-500"
-                >See detail →</button
-              >
+              <h3 class="card-title">Gili Islands</h3>
+              <button class="btn btn-sm btn-outline rounded-full">See detail →</button>
             </div>
             <p class="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur elit, at adipiscing, sed
-              do aliqua ut enim.
+            Sail to Gili Trawangan, Gili Air, or Gili Meno with daily fast boat
+            departures. Enjoy tropical vibes, snorkeling, and stunning sunsets.
             </p>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- Activities Section -->
-  <div class="py-20 bg-white">
-    <div class="container mx-auto px-4">
-      <div
-        class="flex flex-col md:flex-row gap-12 items-start max-w-6xl mx-auto"
-      >
-        <div class="md:w-1/3">
-          <h2 class="text-4xl md:text-5xl font-bold mb-8">
-            Crafting <span class="italic text-cyan-600">Stories</span> Through Exceptional
-            <span class="italic">Experiences</span>.
-          </h2>
-          <div class="flex gap-4">
-            <button class="btn btn-circle btn-primary">←</button>
-            <button class="btn btn-circle btn-outline">→</button>
-          </div>
-        </div>
-
-        <div class="md:w-2/3 grid md:grid-cols-2 gap-6">
-          <!-- Jet Ski -->
-          <div class="card bg-base-100 shadow-xl">
-            <figure class="relative h-48">
-              <div
-                class="w-full h-full bg-gradient-to-br from-yellow-400 to-orange-500"
-              >
-              </div>
-            </figure>
-            <div class="card-body">
-              <div class="flex justify-between items-start mb-2">
-                <div>
-                  <h3 class="font-bold text-lg">Jet Ski</h3>
-                  <p class="text-sm text-gray-600">Nusa Penida, Bali</p>
-                </div>
-                <div class="badge badge-ghost">⏱ 2 hours</div>
-              </div>
-              <p class="text-sm text-gray-600 mb-4">
-                Experience exciting way to enjoy the beauty and thrill of the
-                sea
-              </p>
-              <button
-                class="btn bg-lime-400 text-gray-900 border-0 hover:bg-lime-500 w-full"
-                >Book Now</button
-              >
-              <div class="text-sm font-bold">
-                Start from <span class="text-lg">$30</span>/Pax
-              </div>
-            </div>
-          </div>
-
-          <!-- Banana Boat -->
-          <div class="card bg-base-100 shadow-xl">
-            <figure class="relative h-48">
-              <div
-                class="w-full h-full bg-gradient-to-br from-cyan-400 to-blue-500"
-              >
-              </div>
-            </figure>
-            <div class="card-body">
-              <div class="flex justify-between items-start mb-2">
-                <div>
-                  <h3 class="font-bold text-lg">Banana Boat</h3>
-                  <p class="text-sm text-gray-600">Nusa Penida, Bali</p>
-                </div>
-                <div class="badge badge-ghost">⏱ 2 hours</div>
-              </div>
-              <p class="text-sm text-gray-600 mb-4">
-                Banana boat is an exciting way to enjoy the beauty of Bali Sea
-              </p>
-              <button
-                class="btn bg-lime-400 text-gray-900 border-0 hover:bg-lime-500 w-full"
-                >Book Now</button
-              >
-              <div class="text-sm font-bold">
-                Start from <span class="text-lg">$30</span>/Pax
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
-    <!-- FAQ Section -->
-
-    <div
-      class="py-20 bg-gradient-to-b from-lime-50 to-white relative overflow-hidden"
-    >
-      <!-- Decorative Elements -->
-      <div
-        class="absolute left-0 top-1/4 w-32 h-64 bg-lime-200 opacity-30 rounded-r-full"
-      >
-      </div>
-      <div
-        class="absolute left-0 bottom-1/4 w-24 h-48 bg-lime-300 opacity-30 rounded-r-full"
-      >
-      </div>
-
-      <div class="container mx-auto px-4 relative z-10">
-        <!-- Header -->
-        <div class="text-center max-w-4xl mx-auto mb-12">
-          <h2 class="text-5xl md:text-6xl font-bold mb-6">
-            <span
-              class="bg-gradient-to-r from-lime-400 via-green-500 to-cyan-600 bg-clip-text text-transparent"
-              >GoNusa</span
-            >
-          </h2>
-          <p class="text-gray-600 text-sm max-w-2xl mx-auto">
-            Discover the fastest and easiest way to travel between Bali and
-            Indonesia’s most popular islands. GoNusa is your trusted online
-            ticket agency for fast boat and ferry services from Bali to Nusa
-            Penida, Nusa Lembongan, Gili Trawangan, Gili Air, and Lombok.
-          </p>
-          <p class="text-gray-600 text-sm max-w-2xl mx-auto mt-4">
-            We partner with leading fast boat operators in Bali to bring you the
-            best prices, reliable schedules, and safe routes—all in one place.
-            With GoNusa, you can compare routes, check departure times, and book
-            your fast boat tickets online in just a few clicks.
-          </p>
-        </div>
-
-        <!-- FAQ Accordion -->
-        <div class="max-w-2xl mx-auto">
-          <h3 class="text-3xl font-bold text-center mb-8">
-            Frequently Asked <span class="text-cyan-600">Question</span>
-          </h3>
-
-          <div class="space-y-4">
-            <!-- FAQ Item 1 -->
-            <div class="collapse collapse-arrow bg-white rounded-lg shadow-sm">
-              <input type="radio" name="faq-accordion" />
-              <div class="collapse-title text-lg font-medium">
-                How To Order?
-              </div>
-              <div class="collapse-content">
-                <p class="text-gray-600">
-                  Click on the booking form and follow the steps to complete
-                  your reservation.
-                </p>
-              </div>
-            </div>
-
-            <!-- FAQ Item 2 - Open by default -->
-            <div class="collapse collapse-arrow bg-white rounded-lg shadow-sm">
-              <input type="radio" name="faq-accordion" checked="checked" />
-              <div class="collapse-title text-lg font-medium text-cyan-600">
-                General Information?
-              </div>
-              <div class="collapse-content">
-                <p class="text-gray-600 mb-4">
-                  Bali Island Links Ferries offers a seamless and convenient way
-                  to enjoy your trip across islands. Our platform provides
-                  reliable services to ensure a smooth and stress-free journey.
-                </p>
-                <p class="font-semibold text-gray-800 mb-2">Why Book Online?</p>
-                <ul
-                  class="list-disc list-inside text-gray-600 space-y-1 text-sm"
-                >
-                  <li>Save time and avoid queues</li>
-                  <li>Compare prices and schedules easily</li>
-                  <li>
-                    Enjoy promotional discounts exclusive to online bookings
-                  </li>
-                </ul>
-                <p class="text-gray-600 text-sm mt-3">
-                  Whether you're planning a vacation or a quick getaway, online
-                  fast boat booking makes your travel experience faster and more
-                  convenient.
-                </p>
-              </div>
-            </div>
-
-            <!-- FAQ Item 3 -->
-            <div class="collapse collapse-arrow bg-white rounded-lg shadow-sm">
-              <input type="radio" name="faq-accordion" />
-              <div class="collapse-title text-lg font-medium">
-                How can I pay for my booking?
-              </div>
-              <div class="collapse-content">
-                <p class="text-gray-600">
-                  We accept various payment methods including credit cards, bank
-                  transfers, and digital wallets.
-                </p>
-              </div>
-            </div>
-
-            <!-- FAQ Item 4 -->
-            <div class="collapse collapse-arrow bg-white rounded-lg shadow-sm">
-              <input type="radio" name="faq-accordion" />
-              <div class="collapse-title text-lg font-medium">
-                Is free hotel shuttle service included in my booking?
-              </div>
-              <div class="collapse-content">
-                <p class="text-gray-600">
-                  Hotel shuttle services may be available depending on your
-                  booking package. Please check your booking details.
-                </p>
-              </div>
-            </div>
-
-            <!-- FAQ Item 5 -->
-            <div class="collapse collapse-arrow bg-white rounded-lg shadow-sm">
-              <input type="radio" name="faq-accordion" />
-              <div class="collapse-title text-lg font-medium">
-                About Fee and Cancellation Fee?
-              </div>
-              <div class="collapse-content">
-                <p class="text-gray-600">
-                  Cancellation policies vary by operator. Please review your
-                  booking terms for specific fee information.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- CTA Section -->
-    <div class="py-12 bg-gradient-to-b from-white to-gray-50">
+    <!-- Activities Section -->
+    <div class="py-20 bg-white">
       <div class="container mx-auto px-4">
         <div
-          class="max-w-5xl mx-auto bg-gradient-to-r from-gray-700 to-gray-900 rounded-3xl overflow-hidden shadow-2xl"
-          style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1200 300%22><rect fill=%22%23374151%22 width=%221200%22 height=%22300%22/></svg>'); background-size: cover; background-position: center;"
-        >
-          <div class="px-8 py-12 md:py-16 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
-              Ready to Experience with <span class="text-lime-400">GoNusa</span>
-            </h2>
-            <button
-              class="btn bg-lime-400 text-gray-900 border-0 hover:bg-lime-500 px-8"
-              >Book Now</button
+            class="flex flex-col md:flex-row gap-12 items-start max-w-6xl mx-auto"
             >
+            <div class="md:w-1/3">
+              <h2 class="text-4xl md:text-5xl font-bold mb-8">
+                Crafting <span class="italic text-lime-600">Unforgettable Journeys</span> 
+                with <span class="italic">Fast Boat Tickets</span> from 
+                <span class="italic">Sanur to Nusa Penida</span>.
+              </h2>
+              <p class="text-gray-600 mb-6">
+              Book trusted boat transfers from Sanur to Nusa Penida & Lembongan. 
+              Enjoy safe, fast, and easy online booking for your island adventure in Bali.
+              </p>
+              <div class="flex gap-4">
+                <button class="btn btn-circle btn-primary">←</button>
+                <button class="btn btn-circle btn-outline">→</button>
+              </div>
+            </div>
+
+            <div class="md:w-2/3 grid md:grid-cols-2 gap-6">
+              <!-- Jet Ski -->
+              <div class="card bg-base-100 shadow-xl">
+                <figure class="relative h-48">
+                  <img
+                      src="/setia.jpg"
+                      alt="Fast Boat from Sanur to Nusa Lembongan"
+                      class="w-full h-full object-cover"
+                      />
+                </figure>
+                <div class="card-body">
+                  <div class="flex justify-between items-start mb-2">
+                    <div>
+                      <h3 class="font-bold text-lg">Sanur to Nusa Lembongan</h3>
+                      <p class="text-sm text-gray-600">⏱ 40 min</p>
+                    </div>
+                  </div>
+                  <p class="text-sm text-gray-600 mb-4">
+                  Experience exciting way to enjoy the beauty and thrill of the
+                  sea
+                  </p>
+                  <button
+                      class="btn bg-lime-400 text-gray-900 border-0 hover:bg-lime-500 w-full"
+                      >Book Now</button
+                    >
+                    <div class="text-sm font-bold">
+                      Start from <span class="text-lg">$18</span>/Pax
+                    </div>
+                </div>
+              </div>
+
+              <!-- Banana Boat -->
+              <div class="card bg-base-100 shadow-xl">
+                <figure class="relative h-48">
+                  <img
+                      src="/tanis.jpg"
+                      alt="Fast Boat from Sanur to Nusa Lembongan"
+                      class="w-full h-full object-cover"
+                      />
+
+                </figure>
+                <div class="card-body">
+                  <div class="flex justify-between items-center mb-2">
+                    <div>
+                      <h3 class="font-bold text-lg">Nusa Lembongan to Sanur</h3>
+                      <p class="text-sm text-gray-600">⏱ 40 min</p>
+                    </div>
+                  </div>
+                  <p class="text-sm text-gray-600 mb-4">
+                  An exciting and comfortable way to enjoy the stunning beauty of the Bali Sea on your trip from Lembongan to Sanur.
+                  </p>
+                  <button
+                      class="btn bg-lime-400 text-gray-900 border-0 hover:bg-lime-500 w-full"
+                      >Book Now</button
+                    >
+                    <div class="text-sm font-bold">
+                      Start from <span class="text-lg">$18</span>/Pax
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- FAQ Section -->
+
+      <div id="faq"
+          class="py-20 bg-gradient-to-b from-lime-50 to-white relative overflow-hidden"
+          >
+          <!-- Decorative Elements -->
+        <div
+            class="absolute left-0 top-1/4 w-32 h-64 bg-lime-200 opacity-30 rounded-r-full"
+            >
+        </div>
+          <div
+              class="absolute left-0 bottom-1/4 w-24 h-48 bg-lime-300 opacity-30 rounded-r-full"
+              >
+          </div>
+
+            <div class="container mx-auto px-4 relative z-10">
+              <!-- Header -->
+              <div class="text-center max-w-4xl mx-auto mb-12">
+                <h2 class="text-5xl md:text-6xl font-bold mb-6">
+                  <span
+                      class="bg-gradient-to-r from-lime-400 via-green-500 to-cyan-600 bg-clip-text text-transparent"
+                      >GoNusa</span
+                    >
+                </h2>
+                    <p class="text-gray-600 text-sm max-w-2xl mx-auto">
+                    Discover the fastest and easiest way to travel between Bali and
+                    Indonesia’s most popular islands. GoNusa is your trusted online
+                    ticket agency for fast boat and ferry services from Bali to Nusa
+                    Penida, Nusa Lembongan, Gili Trawangan, Gili Air, and Lombok.
+                    </p>
+                    <p class="text-gray-600 text-sm max-w-2xl mx-auto mt-4">
+                    We partner with leading fast boat operators in Bali to bring you the
+                    best prices, reliable schedules, and safe routes—all in one place.
+                    With GoNusa, you can compare routes, check departure times, and book
+                    your fast boat tickets online in just a few clicks.
+                    </p>
+              </div>
+
+              <!-- FAQ Section -->
+              <div class="max-w-2xl mx-auto">
+                <h3 class="text-3xl font-bold text-center mb-8">
+                  Frequently Asked <span class="text-lime-600">Questions</span>
+                </h3>
+
+                <div class="space-y-4">
+                  <!-- FAQ Item 1 -->
+                  <div class="collapse collapse-arrow bg-white rounded-lg shadow-sm">
+                    <input type="radio" name="faq-accordion" checked="checked" />
+                    <div class="collapse-title text-lg font-medium text-lime-600">
+                      How do I book a fast boat ticket from Sanur to Nusa Penida?
+                    </div>
+                    <div class="collapse-content">
+                      <p class="text-gray-600">
+                      Simply click the “Book Now” button or chat with us on <strong>WhatsApp </strong> to confirm your fast boat ticket.
+                      Choose your route (Sanur ⇄ Nusa Penida or Nusa Lembongan), share your travel date and number of passengers, and we’ll help you complete the booking quickly and securely.                      </p>
+                    </div>
+                  </div>
+
+                  <!-- FAQ Item 2 -->
+                  <div class="collapse collapse-arrow bg-white rounded-lg shadow-sm">
+                    <input type="radio" name="faq-accordion" />
+                    <div class="collapse-title text-lg font-medium">
+                      What payment methods are accepted?
+                    </div>
+                    <div class="collapse-content">
+                      <p class="text-gray-600">
+                      We accept PayPal, major credit cards, and local payments.
+                      You can also pay directly at our Sanur office. Your booking will be instantly confirmed after payment.                      </p>
+                    </div>
+                  </div>
+
+                  <!-- FAQ Item 4 -->
+                  <div class="collapse collapse-arrow bg-white rounded-lg shadow-sm">
+                    <input type="radio" name="faq-accordion" />
+                    <div class="collapse-title text-lg font-medium">
+                      Can I cancel or change my booking?
+                    </div>
+                    <div class="collapse-content">
+                      <p class="text-gray-600">
+                      Cancellations made more than 7 days before departure are fully refundable (100%). </p>
+                      <p>
+                      Cancellations made between 7 days and 48 hours before departure will receive a 50% refund.
+                      </p>
+                      <p>
+                      Cancellations made within 48 hours of departure are non-refundable.
+                      <p class="font-sm font-bold">
+                      Please check your booking details for the specific cancellation policy that applies to your ticket.                      
+                      </p>
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- FAQ Item 5 -->
+                  <div class="collapse collapse-arrow bg-white rounded-lg shadow-sm">
+                    <input type="radio" name="faq-accordion" />
+                    <div class="collapse-title text-lg font-medium">
+                      Why should I book online?
+                    </div>
+                    <div class="collapse-content">
+                      <ul class="list-disc list-inside text-gray-600 space-y-1 text-sm">
+                        <li>Secure your seat in advance — boats fill up quickly.</li>
+                        <li>Compare prices and operators easily.</li>
+                        <li>Get instant confirmation and e-ticket by email.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+
+      <!-- CTA Section -->
+      <div class="py-12 bg-gradient-to-b from-white to-gray-50">
+        <div class="container mx-auto px-4">
+          <div
+              class="max-w-5xl mx-auto bg-gradient-to-r from-gray-700 to-gray-900 rounded-3xl overflow-hidden shadow-2xl"
+              style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1200 300%22><rect fill=%22%23374151%22 width=%221200%22 height=%22300%22/></svg>'); background-size: cover; background-position: center;"
+              >
+              <div class="px-8 py-12 md:py-16 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+                  Ready to Experience with <span class="text-lime-400">GoNusa</span>
+                </h2>
+                <button
+                    class="btn bg-lime-400 text-gray-900 border-0 hover:bg-lime-500 px-8"
+                    >Book Now</button
+                  >
+              </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Footer -->
-    <footer class="bg-white py-12 border-t">
-      <div class="container mx-auto px-4">
-        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 mb-8">
-          <!-- Company -->
-          <div>
-            <h3 class="font-bold text-lg mb-4">Company</h3>
-            <ul class="space-y-2 text-sm text-gray-600">
-              <li><a href="#" class="hover:text-cyan-600">About Us</a></li>
-              <li>
-                <a href="#" class="hover:text-cyan-600">Online Booking</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Help Center -->
-          <div>
-            <h3 class="font-bold text-lg mb-4">Help Center</h3>
-            <ul class="space-y-2 text-sm text-gray-600">
-              <li><a href="#" class="hover:text-cyan-600">FAQ's</a></li>
-              <li>
-                <a href="#" class="hover:text-cyan-600">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="#" class="hover:text-cyan-600">Term & Conditions</a>
-              </li>
-              <li><a href="#" class="hover:text-cyan-600">Sitemap</a></li>
-            </ul>
-          </div>
-
-          <!-- Secure Payments -->
-          <div>
-            <h3 class="font-bold text-lg mb-4">Secure Payments by</h3>
-            <div class="flex flex-wrap gap-3 mb-4">
-              <div
-                class="bg-blue-600 text-white px-3 py-1 rounded text-xs font-bold"
-              >
-                PayPal
-              </div>
-              <div
-                class="bg-orange-500 text-white px-3 py-1 rounded text-xs font-bold"
-              >
-                Mastercard
-              </div>
-              <div
-                class="bg-blue-700 text-white px-3 py-1 rounded text-xs font-bold"
-              >
-                VISA
-              </div>
-              <div
-                class="bg-blue-500 text-white px-3 py-1 rounded text-xs font-bold"
-              >
-                BCA
-              </div>
+      <!-- Footer -->
+      <footer class="bg-white py-12 border-t">
+        <div class="container mx-auto px-4">
+          <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 mb-8">
+            <!-- Company -->
+            <div>
+              <h3 class="font-bold text-lg mb-4">Company</h3>
+              <ul class="space-y-2 text-sm text-gray-600">
+                <li><a href="#" class="hover:text-lime-600">About Us</a></li>
+                <li>
+                  <a href="#" class="hover:text-lime-600">Online Booking</a>
+                </li>
+              </ul>
             </div>
-            <p class="text-xs text-gray-600">
+
+            <!-- Help Center -->
+            <div>
+              <h3 class="font-bold text-lg mb-4">Help Center</h3>
+              <ul class="space-y-2 text-sm text-gray-600">
+                <li><a href="#faq" class="hover:text-lime-600">FAQ's</a></li>
+                <li>
+                  <a href="#privacy" class="hover:text-lime-600">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#term" class="hover:text-lime-600">Term & Conditions</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Secure Payments -->
+            <div>
+              <h3 class="font-bold text-lg mb-4">Secure Payments by</h3>
+              <div class="flex flex-wrap gap-3 mb-4">
+                <div
+                    class="bg-blue-600 text-white px-3 py-1 rounded text-xs font-bold"
+                    >
+                    PayPal
+                </div>
+                  <div
+                      class="bg-orange-500 text-white px-3 py-1 rounded text-xs font-bold"
+                      >
+                      Mastercard
+                  </div>
+                    <div
+                        class="bg-blue-700 text-white px-3 py-1 rounded text-xs font-bold"
+                        >
+                        VISA
+                    </div>
+                      <div
+                          class="bg-blue-500 text-white px-3 py-1 rounded text-xs font-bold"
+                          >
+                          BCA
+                      </div>
+              </div>
+              <p class="text-xs text-gray-600">
               All credit card payments are protected by Paypal. Payments can
               also be made by Bank Transfer.
-            </p>
+              </p>
+            </div>
+          </div>
+
+          <!-- Copyright -->
+          <div
+              class="border-t pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600"
+              >
+              <p>© 2025 GoNusa. All rights reserved.</p>
+              <p>Design by <span class="font-bold">NAMICA</span></p>
           </div>
         </div>
-
-        <!-- Copyright -->
-        <div
-          class="border-t pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600"
-        >
-          <p>© 2025 GoNusa. All rights reserved.</p>
-          <p>Design by <span class="font-bold">NAMICA</span></p>
-        </div>
-      </div>
-    </footer>
-  </div>
+      </footer>
+    </div>
 </Layout>
